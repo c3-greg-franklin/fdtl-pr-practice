@@ -116,7 +116,7 @@ git commit -m "<your-ticket-key>: fix missing exclamation mark in greet()"
 Push it up to GitHub:
 
 ```bash
-git push -u origin <your-ticket-key>-fix-greeter
+git push
 ```
 
 ### 8. Open a PR
