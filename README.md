@@ -87,10 +87,24 @@ You should see `Hello, World!`. If you don't, go back to step 5.
 
 Right now your change only exists on your laptop. Pushing sends your branch up to GitHub so a PR can be opened from it.
 
+First, check what git sees. `git status` shows which files have changed and whether they're staged (marked to be saved) yet:
+
+```bash
+git status
+```
+
+Your new file will show up in red under **Untracked files** — that means git sees it but isn't tracking it yet.
+
 Stage your change (marks it to be saved):
 
 ```bash
 git add exercises/<your-name>.js
+```
+
+Run `git status` again — your file now shows in green under **Changes to be committed**, confirming it's staged:
+
+```bash
+git status
 ```
 
 Commit it (saves a snapshot, with a message referencing your ticket key):
