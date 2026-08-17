@@ -10,10 +10,21 @@ Everyone works in their own file under `exercises/`, so your pull request will n
 
 ### 1. Clone the repo
 
-Cloning downloads a copy of the repo to your machine. `cd` into whatever folder you keep your code in first, then clone — that way the project lands there instead of wherever your terminal happened to open.
+Cloning downloads a copy of the repo to your machine. It lands in whatever folder your terminal is currently in, so first decide where you want it to live — otherwise it'll drop wherever your terminal happened to open.
+
+To find a good spot, look around your folders first. `ls` lists what's in the folder you're in, and `cd` moves you into one:
 
 ```bash
-cd ~/wherever-you-keep-your-code
+ls                         # see the folders here
+cd ~/Dev                   # move into the one you want (e.g. a "Dev" folder)
+ls                         # confirm you're where you expect
+```
+
+`~` is your home folder, so `cd ~/Dev` goes to the `Dev` folder inside your home directory. Pick (or make) a folder you'll remember — this is where the project will live and where you'll open your terminal every time you work on it.
+
+Once you're in the folder you want, clone the repo and step into it:
+
+```bash
 git clone https://github.com/c3-greg-franklin/fdtl-pr-practice.git
 cd fdtl-pr-practice
 ```
