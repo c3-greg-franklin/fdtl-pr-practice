@@ -78,7 +78,7 @@ Claude will show you a diff of what it wants to change. **Read the diff before y
 Confirm the fix actually works before you share it:
 
 ```bash
-node -e "console.log(require('./exercises/<your-name>.js').greet('World'))"
+node -e "console.log(require('./<your-name>.js').greet('World'))"
 ```
 
 You should see `Hello, World!`. If you don't, go back to step 5.
