@@ -47,11 +47,7 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    ```bash
    git push -u origin <your-ticket-key>-fix-greeter
    ```
-   Open the PR:
-   ```bash
-   gh pr create --base main --title "<your-ticket-key>: fix greet() bug" --body "Fixes <your-ticket-key> — greet() was missing its exclamation mark."
-   ```
-   On the PR page in GitHub, add your partner as a reviewer in the **Reviewers** panel so they get notified.
+   GitHub will show a **Compare & pull request** banner on the repo page — click it, fill in the title/description referencing your ticket key, and open the PR against `main`. Then add your partner as a reviewer in the **Reviewers** panel so they get notified.
 8. **Review someone else's PR** — you'll only see it in your review queue once they've added you as a reviewer (see above). Leave inline comments on their diff, then approve or request changes.
 9. **Merge it.** Once your reviewer approves, click **Merge pull request** on the PR page in GitHub, then delete the branch — that's part of closing out the ticket.
 
