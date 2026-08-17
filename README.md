@@ -18,7 +18,15 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    ```bash
    cp exercises/TEMPLATE.js exercises/<your-name>.js
    ```
-5. **Fix the bug.** `greet()` is missing its exclamation mark — point Claude Code at the file, read the diff, and fix it.
+5. **Fix the bug.** Open Claude Code in the repo:
+   ```bash
+   claude
+   ```
+   Then prompt it:
+   ```
+   In exercises/<your-name>.js, greet() should return "Hello, <name>!" but it's missing the exclamation mark — fix it.
+   ```
+   Read the diff it proposes before accepting it.
 6. **Test it.** Run:
    ```bash
    node -e "console.log(require('./exercises/<your-name>.js').greet('World'))"
