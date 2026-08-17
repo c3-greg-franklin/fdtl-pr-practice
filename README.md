@@ -11,9 +11,9 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    cd fdtl-pr-practice
    ```
 2. **Create a ticket.** File a Jira ticket for yourself in the `SSPA` (Sample Scrum Project A) project describing the task below.
-3. **Branch off the ticket.** Name your branch after the ticket:
+3. **Branch off the ticket.** Name your branch after the ticket, swapping in your own ticket key:
    ```bash
-   git checkout -b SSPA-123-fix-greeter
+   git checkout -b <your-ticket-key>-fix-greeter
    ```
 4. **Copy the template.** Copy [`exercises/TEMPLATE.js`](exercises/TEMPLATE.js) to `exercises/<your-name>.js`:
    ```bash
@@ -39,17 +39,17 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    ```bash
    git add exercises/<your-name>.js
    ```
-   Commit it:
+   Commit it, referencing your ticket key:
    ```bash
-   git commit -m "SSPA-123: fix missing exclamation mark in greet()"
+   git commit -m "<your-ticket-key>: fix missing exclamation mark in greet()"
    ```
    Push your branch:
    ```bash
-   git push -u origin SSPA-123-fix-greeter
+   git push -u origin <your-ticket-key>-fix-greeter
    ```
    Open the PR:
    ```bash
-   gh pr create --base main --title "SSPA-123: fix greet() bug" --body "Fixes SSPA-123 — greet() was missing its exclamation mark."
+   gh pr create --base main --title "<your-ticket-key>: fix greet() bug" --body "Fixes <your-ticket-key> — greet() was missing its exclamation mark."
    ```
    On the PR page in GitHub, add your partner as a reviewer in the **Reviewers** panel so they get notified.
 8. **Review someone else's PR** — you'll only see it in your review queue once they've added you as a reviewer (see above). Leave inline comments on their diff, then approve or request changes.
