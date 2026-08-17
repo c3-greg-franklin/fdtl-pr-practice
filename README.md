@@ -98,7 +98,7 @@ Your new file will show up in red under **Untracked files** — that means git s
 Stage your change (marks it to be saved):
 
 ```bash
-git add exercises/<your-name>.js
+git add <your-name>.js
 ```
 
 Run `git status` again — your file now shows in green under **Changes to be committed**, confirming it's staged:
