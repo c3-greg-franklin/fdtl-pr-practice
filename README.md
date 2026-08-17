@@ -4,8 +4,9 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
 
 ## The exercise
 
-1. **Clone the repo.**
+1. **Clone the repo.** `cd` into whatever folder you want this repo to live in, then clone it:
    ```
+   cd ~/wherever-you-keep-your-code
    git clone https://github.com/c3-greg-franklin/fdtl-pr-practice.git
    cd fdtl-pr-practice
    ```
