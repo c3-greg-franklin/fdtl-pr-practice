@@ -47,8 +47,8 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    ```bash
    git push -u origin <your-ticket-key>-fix-greeter
    ```
-8. **Open a PR.** In GitHub, create a new PR against `main` from your branch (fill in the title/description referencing your ticket key), then add your partner as a reviewer in the **Reviewers** panel so they get notified.
-9. **Review someone else's PR** — you'll only see it in your review queue once they've added you as a reviewer (see above). Leave inline comments on their diff, then approve or request changes.
-10. **Merge it.** Once your reviewer approves, click **Merge pull request** on the PR page in GitHub, then delete the branch — that's part of closing out the ticket.
+8. **Open a PR.** Go to the repo on GitHub — after your push, it'll show a **Compare & pull request** banner right on the main page. Click it, fill in the title/description referencing your ticket key, and open it against `main`. Then, on the PR page, add your partner as a reviewer using the **Reviewers** panel on the right sidebar.
+9. **Review someone else's PR.** Go to the repo's **Pull requests** tab on GitHub — you'll see the ones assigned to you there. Open it, click **Files changed** to view the diff, leave inline comments, then use **Review changes** (top right of that tab) to approve or request changes.
+10. **Merge it.** Once your reviewer approves, go back to your own PR's page and click **Merge pull request**, then **Delete branch** — both buttons are right there at the bottom of the PR.
 
 Each person works in their own file under `exercises/`, so PRs won't collide.
