@@ -32,14 +32,26 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    node -e "console.log(require('./exercises/<your-name>.js').greet('World'))"
    ```
    You should see `Hello, World!`.
-7. **Push and open a PR** against `main`:
+7. **Push and open a PR** against `main`.
+
+   Stage and commit your change:
    ```bash
    git add exercises/<your-name>.js
    git commit -m "SSPA-123: fix missing exclamation mark in greet()"
+   ```
+   Push your branch:
+   ```bash
    git push -u origin SSPA-123-fix-greeter
+   ```
+   Open the PR:
+   ```bash
    gh pr create --base main --title "SSPA-123: fix greet() bug" --body "Fixes SSPA-123 — greet() was missing its exclamation mark."
    ```
-8. **Review someone else's PR** — leave inline comments on their diff, then approve or request changes.
+   Add your partner as a reviewer so they get notified — either pick them in GitHub's "Reviewers" panel on the PR page, or:
+   ```bash
+   gh pr edit --add-reviewer <partner-github-username>
+   ```
+8. **Review someone else's PR** — you'll only see it in your review queue once they've added you as a reviewer (see above). Leave inline comments on their diff, then approve or request changes.
 9. **Merge it.** Once your reviewer approves, merge your PR:
    ```bash
    gh pr merge SSPA-123-fix-greeter --squash --delete-branch
