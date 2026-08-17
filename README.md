@@ -10,7 +10,7 @@ Practice repo for the FDTL Week 1 "ship a PR, review one" exercise. Full instruc
    git clone https://github.com/c3-greg-franklin/fdtl-pr-practice.git
    cd fdtl-pr-practice
    ```
-2. **Create a ticket.** File a Jira ticket for yourself in the [`SSPA` (Sample Scrum Project A)](https://c3energy.atlassian.net/jira/software/projects/SSPA/summary) project describing the task below.
+2. **Create a ticket.** File a Jira ticket for yourself on the [`SSPA` (Sample Scrum Project A) board](https://c3energy.atlassian.net/jira/software/projects/SSPA/boards/2454?filter=&groupBy=none) describing the task below.
 3. **Branch off the ticket.** Name your branch after the ticket, swapping in your own ticket key:
    ```bash
    git checkout -b <your-ticket-key>-fix-greeter
