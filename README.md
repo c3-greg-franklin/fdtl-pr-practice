@@ -54,7 +54,7 @@ git checkout -b <your-ticket-key>-fix-greeter
 `exercises/TEMPLATE.js` has the bug in it. Copy it to a file named after yourself so you have your own copy to edit:
 
 ```bash
-cp exercises/TEMPLATE.js exercises/<your-name>.js
+cp TEMPLATE.js <your-name>.js
 ```
 
 ### 5. Fix the bug — with Claude Code
