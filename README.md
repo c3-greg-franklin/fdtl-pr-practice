@@ -125,13 +125,13 @@ A pull request (PR) is how you propose your branch be merged into `main`, and wh
 
 ![The Compare & pull request banner on the repo page](docs/screenshots/github-compare-pr-banner.png)
 
-Fill in a title and description that reference your ticket key, leave the base as `main`, and create the PR. Then, in the **Reviewers** panel on the right, add your assigned partner so they get notified there's something to review.
+Fill in a title and description that reference your ticket key, leave the base as `main`, and click **Create pull request**. Once it's created, copy the PR's URL from your browser's address bar and send it to your review partner so they know what to look at.
 
-![The Reviewers panel on the pull request page](docs/screenshots/github-reviewers-panel.png)
+> The **Reviewers** panel on the right only lists people added to this repo, so for this exercise just share the link directly instead of requesting a reviewer there.
 
 ### 9. Review someone else's PR
 
-Once your partner adds you as a reviewer, their PR shows up under the repo's **Pull requests** tab. Open it and click **Files changed** to see exactly what they changed. Hover over a line to leave an inline comment, then click **Review changes** (top right) to approve or request changes.
+Open the PR link your partner sent you (or find it under the repo's **Pull requests** tab). Click **Files changed** to see exactly what they changed. Hover over a line to leave an inline comment, then click **Review changes** (top right) and choose **Approve** or **Request changes**.
 
 ![The Files changed tab, with the Submit review button top-right](docs/screenshots/github-files-changed.png)
 
