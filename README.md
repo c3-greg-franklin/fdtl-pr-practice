@@ -51,11 +51,14 @@ git checkout -b <your-ticket-key>-fix-greeter
 
 ### 4. Copy the template
 
-`exercises/TEMPLATE.js` has the bug in it. Copy it to a file named after yourself so you have your own copy to edit:
+The bug lives in `exercises/TEMPLATE.js`. Move into that folder, then copy the template to a file named after yourself so you have your own copy to edit:
 
 ```bash
+cd exercises
 cp TEMPLATE.js <your-name>.js
 ```
+
+You'll stay in this `exercises/` folder for the next few steps.
 
 ### 5. Fix the bug — with Claude Code
 
